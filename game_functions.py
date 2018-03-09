@@ -224,7 +224,7 @@ def update_aliens(ai_settings, stats, screen, sb, ship, aliens, bullets):
         ship_hit(ai_settings, stats, screen, sb, ship, aliens, bullets)
 
     #look for aliens hitting the bottom of the screen
-    check_aliens_bottom(ai_settings, stats, screen, ship, aliens, bullets)
+    check_aliens_bottom(ai_settings, stats, screen, sb, ship, aliens, bullets)
 
 def check_high_score(stats, sb):
     """check to see if there's a new high score."""
